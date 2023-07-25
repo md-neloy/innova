@@ -1,0 +1,51 @@
+#counting {
+  padding: 120px 0;
+  .count_div {
+    width: 260px;
+    padding: 74px 60px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+    h3 {
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      color: #29313d;
+    }
+    p {
+      font-family: "Nunito", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #29313d;
+      text-align: center;
+    }
+  }
+  h2 {
+    width: 570px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313d;
+  }
+  .text {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313d;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  a {
+    padding: 14px 28px;
+    background: #ff5538;
+    color: #fff;
+    border-radius: 18px;
+    border: 2px solid #ff5538;
+    &:hover {
+      background: transparent;
+      color: #ff5538;
+      border: 2px solid #ff5538;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+#impact {
+  padding: 100px 0;
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #141135;
+    margin-bottom: 23px;
+    text-align: center;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #141135;
+    width: 558px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+  .impact_text {
+    display: flex;
+    justify-content: space-between;
+    width: 441px;
+    margin-bottom: 40px;
+    img{
+        height: 63px;
+    }
+    .div {
+      h3 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #141135;
+      }
+      p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #141135;
+        margin-top: 20px;
+        width:343px;
+        text-align: left;
+      }
+    }
+  }
+}

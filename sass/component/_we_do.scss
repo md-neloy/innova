@@ -1,0 +1,73 @@
+#we_do {
+  padding: 100px 0;
+  background: #f6f5ff;
+  .row {
+    &:first-child{
+        margin-bottom: 30px;
+    }
+    .text {
+      h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+        color: #141135;
+        margin-bottom: 9px;
+      }
+      P {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #726e9e;
+        margin-bottom: 41px;
+        width: 393px;
+      }
+      a {
+        padding: 20px 40px;
+        width: max-content;
+        background-color: #1bbf00;
+        border-radius: 100px;
+        color: #fff;
+      }
+    }
+    .design {
+      padding: 48px 51px;
+      width: 370px;
+      background: #fff;
+      color: #141135;
+      border-radius: 20px;
+      text-align: center;
+      transition: all 0.4s;
+      cursor: pointer;
+      &:hover {
+        background: #6b62c5;
+        color: #fff;
+      }
+      &:hover a {
+        color: #fff;
+      }
+      .img {
+        display: flex;
+        justify-content: center;
+      }
+      h3 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        margin-top: 32px;
+      }
+      p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #141135;
+      }
+    }
+  }
+}

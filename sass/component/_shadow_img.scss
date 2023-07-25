@@ -1,0 +1,21 @@
+#shadow_img{
+    background: #EDE6F7;
+    .nav_img{
+    display: flex;
+    justify-self: center;
+    gap:30px;
+    img{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        &:nth-child(1){
+            height:350px;
+        }
+        &:nth-child(3){
+            height:326px;
+        }
+        &:nth-child(4){
+            height: 482px;
+        }
+    }
+  }
+}

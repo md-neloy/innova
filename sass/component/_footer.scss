@@ -1,0 +1,67 @@
+#footer {
+  padding: 140px 0 80px;
+  p {
+    width: 450px;
+    margin-top: 44px;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313d;
+  }
+  .footer_menu {
+    gap: 100px;
+    .first_menu {
+      li {
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #29313d;
+        margin-bottom: 30px;
+        position: relative;
+        width: max-content;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            top:0;
+            left: 50%;
+            background: #FF5538;
+            z-index: -1;
+            transition: all 0.4s;
+        }
+        &:hover::after{
+            width: 100%;
+            left:0;
+        }
+        &:first-child {
+          margin-bottom: 48px;
+        }
+        &:hover a{
+            color:#fff;
+        }
+        a {
+          font-family: "Nunito", sans-serif;
+          font-size: 20px;
+          font-weight: 600;
+          color: #29313d;
+          transition: all 0.4s;
+        }
+      }
+    }
+  }
+  .lst_foot {
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-family: "Nunito", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #29313d;
+    }
+    .lst_text {
+      display: flex;
+      gap: 60px;
+    }
+  }
+}
