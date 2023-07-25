@@ -1,0 +1,45 @@
+#choose {
+  padding: 100px 0;
+  .choose_text {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    width: 568px;
+    padding: 42px 0 42px 28px;
+    transition: all 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    img {
+      width: 38px;
+    }
+    p {
+      width: 319px;
+      margin-bottom: 0;
+    }
+  }
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: #141135;
+    margin-bottom: 9px;
+  }
+  P {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #726e9e;
+    margin-bottom: 41px;
+    width: 393px;
+  }
+  a {
+    padding: 20px 40px;
+    width: max-content;
+    background-color: #1bbf00;
+    border-radius: 100px;
+    color: #fff;
+  }
+}

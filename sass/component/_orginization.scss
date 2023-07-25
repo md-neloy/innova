@@ -1,0 +1,24 @@
+$primary: #29313d;
+#orginization {
+  padding: 120px 0;
+  h3 {
+    width: 849px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    color: $primary;
+    margin-bottom: 60px;
+  }
+  .mini_box {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    .box {
+      width: 210px;
+      padding: 48px 41px;
+      background: #FDF9F8;
+    }
+  }
+}
